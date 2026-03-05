@@ -108,7 +108,6 @@ body {
 	background-image: url("images/overlay.png"), linear-gradient(45deg, ##0b465d 15%, #3e9fb2 85%);
 }
 
-<<<<<<< HEAD
 	}
 
 	html {
@@ -137,18 +136,6 @@ body {
 			-ms-transition: none !important;
 			transition: none !important;
 		}
-=======
-body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-	-moz-animation: none !important;
-	-webkit-animation: none !important;
-	-ms-animation: none !important;
-	animation: none !important;
-	-moz-transition: none !important;
-	-webkit-transition: none !important;
-	-ms-transition: none !important;
-	transition: none !important;
-}
->>>>>>> 707890a (Initial website upload)
 
 /* Type */
 
