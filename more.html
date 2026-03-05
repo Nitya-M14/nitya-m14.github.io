@@ -1,171 +1,516 @@
 <!DOCTYPE HTML>
-<!--
-	Stellar by HTML5 UP
-	html5up.net | 
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Generic - Stellar by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<html lang="en">
+<head>
+  <title>About Me — Nitya Mehta</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+    :root {
+      --cream: #f5f0e8;
+      --ink:   #af9e8a;
+      --terra: #6b4e3f;
+      --blush: #e8c4b0;
+      --mist:  #d4cfc7;
+      --font-display: 'Cormorant Garamond', Georgia, serif;
+      --font-mono:    'DM Mono', monospace;
+    }
 
-				<!-- Header -->
-					<header id="header">
-						<h1>All about me!</h1>
-						<footer class="major">
-							<ul class="actions special">
-								<li><a href="index.html" class="button">Back to Main Page</a></li>
-							</ul>
-						</footer>
-					</header>
-					
+    html { scroll-behavior: smooth; }
 
-				<!-- Main -->
-					<div id="main">
+    body {
+      background-color: var(--cream);
+      color: var(--ink);
+      font-family: var(--font-display);
+      font-size: 18px;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
 
-						<!-- Content -->
-						<section id="content" class="main" style="text-align: center;">
-							<h2>Where am I from? </h2>
-							<span class="image-small"><img src="images/chi.jpg" alt="" /></span> <span class="image-small"><img src="images/chi.jpeg" alt="" /></span>					
-							<p>Born and brought up in the northern suburbs of Chicago and now completing my undergrad at the University Illinois Chicago!</p>
-						</section>	
-						
-		
-						<section id="content" class="main">
-							<h2>Languages I Speak</h2>
-							<h3>Hindi and Spanish</h3>
-							<p>
-							  I am fluent in both English and Hindi, with native proficiency 
-							  in both languages. Additionally, I have developed strong skills in 
-							  Spanish, enabling me to communicate confidently and navigate a variety 
-							  of situations in this language as well.
-							</p>
-						  </section>
-						  
-							
-						  <section id="ctaaa" class="main special">
-							<header class="major">
-							  <h2>My Favorite Extracurriculars 🚀</h2>
-							</header>
-							<ul class="features">
-							  <li>
-								<span class="image"><img src="images/BTTC.png" alt="Break Through Tech Logo" /></span>
-								<h3>Break Through Tech 💻</h3>
-								<p>
-								  Proud member of Break Through Tech Chicago! I love teaming up with amazing people to share knowledge, boost each other, and empower women in tech. Together, we’re breaking barriers and shaping the future of technology!
-								</p>
-							  </li>
-						  
-							  <li>
-								<span class="image"><img src="images/golf.jpg" alt="Golf Club" /></span>
-								<h3>Golf Club at UIC ⛳️</h3>
-								<p>
-								  Golf has been my passion since high school, where I played all four years! I also created a donation drive to gather gently used golf gear to support local sports programs giving back while swinging strong!
-								</p>
-							  </li>
-						  
-							  <li>
-								<span class="image"><img src="images/GWC.png" alt="Girls Who Code Logo" /></span>
-								<h3>Girls Who Code 💡</h3>
-								<p>
-								  Mentoring young girls aged 13-17 has been incredibly rewarding! I help them unlock their coding potential and inspire more girls to dive into the exciting world of computer science.
-								</p>
-							  </li>
-							</ul>
-						  </section>
-						  
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 9999;
+      opacity: 0.03;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+      background-size: 180px;
+    }
 
+    ::-webkit-scrollbar { width: 4px; }
+    ::-webkit-scrollbar-track { background: var(--cream); }
+    ::-webkit-scrollbar-thumb { background: var(--terra); border-radius: 2px; }
 
-							<!-- First Section -->
-							<section id="ctaaa" class="main special">
-								<header class="major">
-									<h2>What do I do for fun? </h2>
-								</header>
-								<ul class="features">
-									<li>
-										<h3>Love to play Golf </h3>
-										<p>Small flex of my golf awards </p>
-										<span class="image"><img src="images/golf1.jpeg" alt="" /></span> 
-										<span class="image"><img src="images/golf2.jpeg" alt="" /></span>
-									</li>
-					
-									<li>
-										<h3> Passion for Traveling </h3>
-										<h4> I have been to: </h4>
-										<p>India 🇮🇳</p>
-										<p>UAE 🇦🇪</p>
-										<p>UK 🇬🇧</p>
-										<p>France 🇫🇷</p>
-										<p>Mexico 🇲🇽</p>
-										<p>Germany 🇩🇪</p>
-										<p>Turkey 🇹🇷</p>
-										<p>Bahamas 🇧🇸</p>
-										<p> Many US States 🇺🇸</p>									
-					
-									</li>
-									<li>
-										<h3>I like to build legos</h3>
-										<p>  My builds:</p>
-										<span class="image"><img src="images/lego.jpg" alt="" /></span>
-										<span class="image"><img src="images/bird.png" alt="" /></span>
-										<span class="image"><img src="images/mind.jpg" alt="" /></span>
+    /* NAV */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.2rem 3rem;
+      background: rgba(245, 240, 232, 0.9);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--mist);
+    }
 
-									</li>
-								</ul>
-							</section>
-							</section>
+    .nav-logo {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      font-weight: 300;
+      font-style: italic;
+      color: var(--terra);
+      text-decoration: none;
+    }
 
-					</div>
+    .nav-back {
+      font-family: var(--font-mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--ink);
+      text-decoration: none;
+      transition: color 0.3s;
+    }
 
-				<!-- Footer -->
-				<footer id="footer">
-					<section>
-						<h2>Let's Connect!</h2>
-						<p>I'm always eager to connect with fellow students who share my passion for technology. 
-							Establishing meaningful connections is essential, particularly for potential future collaborations.
-							 Whether you have questions about my experiences or projects, or if you simply want to connect and bond 
-							 over new technology, feel free to reach out and lets!</p>
-						<ul class="actions">
-						</ul>
-					</section>
-					<section>
-						<h2> Contact Me!</h2>
-						<dl class="alt">
+    .nav-back:hover { color: var(--terra); }
 
-							<dt>Phone</dt>
-							<dd>+1 (224) 551-5949
-							<dt>Email</dt>
-							<dd>Nityamehta1424@gmail.com</dd>
-						</dl>
-						<ul class="icons">
-							
+    /* HERO BANNER */
+    .about-hero {
+      min-height: 55vh;
+      background: var(--ink);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      overflow: hidden;
+    }
 
-							<li><a href="https://www.linkedin.com/in/nitya-mehta-nm14nm23/" class="icon brands fa-linkedin alt"><span class="label">linkedin</span></a></li>
-							<li><a href="https://nitya-m14.github.io/nitya-mehta14.github.io/" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-							
-						</ul>
-					</section>
-					<p class="copyright">&copy;NityaMehta. Design: <a href="NiyaMehta">HTML5 UP</a>.</p>
-				</footer>
+    .about-hero-left {
+      padding: 10rem 4rem 5rem 6rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
 
-		</div>
+    .page-label {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: var(--blush);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      animation: fadeUp 0.7s 0.2s both;
+    }
 
-	<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.scrollex.min.js"></script>
-		<script src="assets/js/jquery.scrolly.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-		<script src="assets/js/breakpoints.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<script src="assets/js/main.js"></script>
+    .page-label::after {
+      content: ''; width: 50px; height: 1px;
+      background: var(--blush); opacity: 0.4;
+    }
+
+    .page-title {
+      font-size: clamp(3.5rem, 5.5vw, 6rem);
+      font-weight: 300;
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+      color: var(--cream);
+      animation: fadeUp 0.7s 0.35s both;
+    }
+
+    .page-title em { font-style: italic; color: var(--blush); }
+
+    .about-hero-right {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .about-hero-right img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top center;
+      opacity: 0;
+      animation: fadeIn 1.2s 0.4s forwards;
+    }
+
+    /* QUOTE BAND */
+    .quote-band {
+      background: var(--terra);
+      padding: 3rem 6rem;
+      display: flex;
+      align-items: center;
+      gap: 3rem;
+    }
+
+    .quote-mark {
+      font-size: 6rem;
+      line-height: 1;
+      color: rgba(245,240,232,0.2);
+      font-style: italic;
+      flex-shrink: 0;
+      margin-top: -1rem;
+    }
+
+    .quote-main {
+      font-size: clamp(1.8rem, 3vw, 2.8rem);
+      font-style: italic;
+      font-weight: 300;
+      color: var(--cream);
+      line-height: 1.2;
+    }
+
+    .quote-sub {
+      font-size: 0.95rem;
+      color: rgba(245,240,232,0.7);
+      font-style: italic;
+      margin-top: 0.4rem;
+    }
+
+    .quote-attr {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(245,240,232,0.5);
+      margin-top: 0.4rem;
+    }
+
+    /* SECTIONS */
+    .content-section {
+      padding: 6rem 6rem;
+    }
+
+    .content-section.dark {
+      background: #f0ebe0;
+    }
+
+    .section-label {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: var(--terra);
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .section-label::after {
+      content: ''; width: 50px; height: 1px;
+      background: var(--terra); opacity: 0.4;
+    }
+
+    .section-title {
+      font-size: clamp(2.5rem, 4vw, 4rem);
+      font-weight: 300;
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+      margin-bottom: 2rem;
+    }
+
+    .section-title em { font-style: italic; color: var(--terra); }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: start;
+    }
+
+    .body-text p {
+      font-size: 1rem;
+      color: #4a3f32;
+      line-height: 1.85;
+      margin-bottom: 1.4rem;
+    }
+
+    /* VALUES */
+    .values-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .value-item {
+      display: flex;
+      gap: 1.2rem;
+      align-items: flex-start;
+    }
+
+    .value-num {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.15em;
+      color: var(--terra);
+      padding-top: 0.35rem;
+      flex-shrink: 0;
+    }
+
+    .value-content h4 {
+      font-size: 1.05rem;
+      font-weight: 400;
+      margin-bottom: 0.25rem;
+    }
+
+    .value-content p {
+      font-size: 0.88rem;
+      color: #6b5e4e;
+      line-height: 1.7;
+    }
+
+    /* FUN FACTS */
+    .facts-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      margin-top: 3rem;
+    }
+
+    .fact-card {
+      padding: 2rem;
+      background: #fff;
+      border: 1px solid var(--mist);
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .fact-card:hover { transform: translateY(-4px); }
+
+    .fact-emoji {
+      font-size: 1.8rem;
+      margin-bottom: 0.75rem;
+      display: block;
+    }
+
+    .fact-text {
+      font-size: 0.9rem;
+      color: #6b5e4e;
+      line-height: 1.7;
+    }
+
+    .fact-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: var(--terra);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.3s;
+    }
+
+    .fact-card:hover::before { transform: scaleX(1); }
+
+    /* BTN */
+    .btn-primary {
+      display: inline-block;
+      padding: 0.7rem 2rem;
+      background: var(--terra);
+      color: var(--cream);
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      text-decoration: none;
+      border: 1px solid var(--terra);
+      transition: all 0.3s;
+    }
+
+    .btn-primary:hover {
+      background: transparent;
+      color: var(--terra);
+    }
+
+    /* FOOTER */
+    footer {
+      background: var(--ink);
+      color: var(--cream);
+      padding: 4rem 6rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid rgba(245,240,232,0.06);
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .footer-copy {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.15em;
+      color: rgba(245,240,232,0.2);
+    }
+
+    /* ANIMATIONS */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    /* RESPONSIVE */
+    @media (max-width: 900px) {
+      .about-hero { grid-template-columns: 1fr; }
+      .about-hero-right { height: 40vh; order: -1; }
+      .about-hero-left { padding: 8rem 3rem 4rem; }
+      .two-col { grid-template-columns: 1fr; gap: 2.5rem; }
+      .facts-grid { grid-template-columns: 1fr 1fr; }
+      .quote-band { padding: 2.5rem 3rem; flex-direction: column; gap: 1rem; }
+      .content-section { padding: 4rem 3rem; }
+      footer { padding: 3rem; }
+      nav { padding: 1rem 1.5rem; }
+    }
+
+    @media (max-width: 560px) {
+      .facts-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-logo">Nitya Mehta</a>
+    <a href="index.html" class="nav-back">← Back to Portfolio</a>
+  </nav>
+
+  <!-- HERO -->
+  <div class="about-hero">
+    <div class="about-hero-left">
+      <p class="page-label">About Me</p>
+      <h1 class="page-title">The person<br>behind the <em>work</em></h1>
+    </div>
+    <div class="about-hero-right">
+      <img src="images/IMG_0746.jpg" alt="Nitya Mehta" />
+    </div>
+  </div>
+
+  <!-- QUOTE BAND -->
+  <div class="quote-band">
+    <div>
+      <h3 class="quote-main">"Dil se Karo" </h3>
+      <h2 class="quote-sub">Do it with your heart</h2>
+      <p class="quote-attr">— My Nani(Grandma)</p>
+	  
+    </div>
+  </div>
+
+  <!-- STORY -->
+  <div class="content-section reveal">
+    <p class="section-label">My Story</p>
+    <h2 class="section-title">Where I'm<br><em>coming from</em></h2>
+    <div class="two-col">
+      <div class="body-text">
+        <p>I'm currently pursuing a Bachelor's degree in Communication and Computer Science at the University of Illinois Chicago  a dual focus that lets me think about technology not just as a technical challenge, but as a human.</p>
+        <p>My journey into tech started with curiosity. I wanted to understand how the apps I used every day were built, how algorithms made decisions, and how design shaped the way people felt when they used software. That curiosity turned into a passion.</p>
+        <p>Outside the classroom, I've built AI-powered applications, supported hundreds of students and faculty as a Computer Specialist, and mentored the next generation of women in tech through Girls Who Code and Break Through Tech.</p>
+      </div>
+      <div class="values-list">
+        <div class="value-item">
+          <span class="value-num">01</span>
+          <div class="value-content">
+            <h4>Curiosity first</h4>
+            <p>I ask "why" before "how" understanding the problem deeply before reaching for a solution.</p>
+          </div>
+        </div>
+        <div class="value-item">
+          <span class="value-num">02</span>
+          <div class="value-content">
+            <h4>Technology with Purpose</h4>
+            <p>Technology should solve real problems. I focus on creating tools and systems that are useful, reliable, and meaningful for the people who use them.</p>
+          </div>
+        </div>
+        <div class="value-item">
+          <span class="value-num">03</span>
+          <div class="value-content">
+            <h4>Always learning</h4>
+            <p>I actively embrace learning new tools, frameworks, and workflows, understanding that growth comes from stepping outside my comfort zone.</p>
+          </div>
+        </div>
+        <div class="value-item">
+          <span class="value-num">04</span>
+          <div class="value-content">
+            <h4>Growth Mindset</h4>
+            <p>I approach every project as a chance to improve—refining skills, learning new techniques, and building stronger solutions over time.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FUN FACTS -->
+  <div class="content-section dark reveal">
+    <p class="section-label">Beyond the Resume</p>
+    <h2 class="section-title">A few things<br><em>about me</em></h2>
+    <div class="facts-grid">
+      <div class="fact-card">
+        <span class="fact-emoji">⛳</span>
+        <p class="fact-text">I played varsity golf all four years of high school and now continue playing in college. I also led a donation drive to get golf clubs into the hands of local youth programs.</p>
+      </div>
+      <div class="fact-card">
+        <span class="fact-emoji">🎮</span>
+        <p class="fact-text">My first big project was Mario-themed because learning to code should be fun, not intimidating.</p>
+      </div>
+      <div class="fact-card">
+        <span class="fact-emoji">👩‍💻</span>
+        <p class="fact-text">I’ve mentored girls ages 13–17 through Girls Who Code, helping spark curiosity about technology while also reinforcing the interest in tech that first inspired me to explore the field.</p>
+      </div>
+      <div class="fact-card">
+        <span class="fact-emoji">✈️</span>
+        <p class="fact-text">I’m passionate about traveling because it allows me to discover new cultures, experience different ways of life, and explore diverse cuisines.</p>
+      </div>
+      <div class="fact-card">
+        <span class="fact-emoji">📊</span>
+        <p class="fact-text">I'm certified in Data Analytics and love turning raw data into visuals that actually tell a story.</p>
+      </div>
+      <div class="fact-card">
+        <span class="fact-emoji">🌍</span>
+        <p class="fact-text">I hold the Illinois Global Scholar Certificate  a reminder that the world is bigger than any one screen.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="content-section" style="text-align:center; padding-top: 5rem; padding-bottom: 5rem;">
+    <p class="section-label reveal" style="justify-content:center;">Let's work together</p>
+    <h2 class="section-title reveal" style="margin-bottom:2rem;">Want to<br><em>connect?</em></h2>
+    		<a href="mailto:Nityamehta1424@gmail.com" class="btn-primary reveal">Get In Touch</a>
+  </div>
+
+  <footer>
+    <span class="footer-copy">&copy; 2025 Nitya Mehta</span>
+    <span class="footer-copy">Built with intention</span>
+  </footer>
+
+  <script>
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => entry.target.classList.add('visible'), i * 100);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
+    reveals.forEach(el => observer.observe(el));
+  </script>
 
 </body>
 </html>

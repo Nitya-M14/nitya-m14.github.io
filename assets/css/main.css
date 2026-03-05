@@ -606,7 +606,6 @@ button.primary.icon:before,
 
 /* Icon */
 
-<<<<<<< HEAD
 	.icon {
 		text-decoration: none;
 		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -1974,7 +1973,7 @@ button.primary.icon:before,
 
 		#main > .main {
 			padding: 5em 5em 3em 5em ;
-			border-top: solid 1px #dddddd;
+			border-top: solid 1px #dd8a8a;
 		}
 
 			#main > .main:first-child {
@@ -2221,80 +2220,3 @@ button.primary.icon:before,
 			margin: 0.2rem 0;
 		  }
 		  
-=======
-.icon {
-	text-decoration: none;
-	-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-	-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-	-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-	border-bottom: none;
-	position: relative;
-}
-
-.icon:before {
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
-	display: inline-block;
-	font-style: normal;
-	font-variant: normal;
-	text-rendering: auto;
-	line-height: 1;
-	text-transform: none !important;
-	font-family: 'Font Awesome 5 Free';
-	font-weight: 400;
-}
-
-.icon > .label {
-	display: none;
-}
-
-.icon:before {
-	line-height: solid;
-}
-
-.icon.solid:before { font-weight: 900; }
-.icon.brands:before { font-family: 'Font Awesome 5 Brands'; }
-/* ===== CHANGED: smaller circles ===== */
-.icon.major {
-  border: solid 1px;
-  display: inline-block;
-  border-radius: 100%;
-  padding: 0.1em;           /* reduced further */
-  margin: 0 0 0.5em 0;     /* reduced further */
-  cursor: default;
-}
-.icon.major:before {
-  display: inline-block;
-  font-size: 0.85rem;       /* reduced from 1.5rem */
-  width: 1.6em;
-  height: 1.6em;
-  line-height: 1.6em;
-  border-radius: 100%;
-  border: solid 1px;
-  text-align: center;
-}
-/* ===== END CHANGED ===== */
-
-@media screen and (max-width: 1680px) {
-  .icon.major:before {
-    font-size: 0.85rem;
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  .icon.major:before {
-    font-size: 0.85rem;
-  }
-}
-
-@media screen and (max-width: 736px) {
-  .icon.major {
-    margin: 0 0 0.5em 0;
-    padding: 0.1em;
-  }
-  .icon.major:before {
-    font-size: 0.85rem;
-  }
-}
->>>>>>> 707890a (Initial website upload)
